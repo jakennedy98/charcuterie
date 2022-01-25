@@ -7,9 +7,8 @@ export const HomeGrid = styled.div`
     "photo1 photo2 photo3";
   grid-gap: 12px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30vw;
+  grid-template-rows: 32vw;
   margin: 12px;
-
 
 `;
 
@@ -22,8 +21,18 @@ export const PhotoOne = styled.div`
 
 export const PhotoTwo = styled.div`
     grid-area: photo2;
-    background: #F5D5CB;
+    background-image: url(${"/images/test4.png"});
+    background-size: 100%;
+
+    background-origin: content-box;
+
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
 `;
 
 export const PhotoThree = styled.div`
@@ -33,4 +42,14 @@ export const PhotoThree = styled.div`
     display: flex;
     justify-content: center;
 `;
+
+export const ShopNowButton= styled.button`
+    background: none;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+`;
+
 
