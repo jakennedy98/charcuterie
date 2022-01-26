@@ -19,6 +19,12 @@ export const Logo = styled.div`
   font-size: 30px;
   margin-left: 20px;
   margin-top: 10px;
+  padding-top: 12px;
+
+  @media (max-width: 768px) {
+      font-size: 24px;
+      padding-top: 24px;
+  }
 
 `;
 

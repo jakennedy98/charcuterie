@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeGrid = styled.div`
-  height: 500px;
+  max-height: 500px;
   display: grid;
   grid-template-areas:
     "photo1 photo2 photo3";
@@ -9,6 +9,7 @@ export const HomeGrid = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 32vw;
   margin: 12px;
+  margin-bottom: 90px;
 
 `;
 
@@ -23,16 +24,12 @@ export const PhotoTwo = styled.div`
     grid-area: photo2;
     background-image: url(${"/images/test4.png"});
     background-size: 100%;
-
     background-origin: content-box;
-
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-
 `;
 
 export const PhotoThree = styled.div`
@@ -49,7 +46,6 @@ export const ShopNowButton= styled.button`
     border: none;
     margin-bottom: 50px;
     cursor: pointer;
-    
 `;
 
 

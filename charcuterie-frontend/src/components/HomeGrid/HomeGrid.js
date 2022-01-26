@@ -10,12 +10,12 @@ function HomeGrid() {
             </S.PhotoOne>
             <S.PhotoTwo>
                 <div/>
-                <S.ShopNowButton>Shop Now</S.ShopNowButton>
+     
             </S.PhotoTwo>
             <S.PhotoThree>
-
                 <img src="/images/Chocolate.png" alt="image" width = "100%" opacity = "0.1" />
             </S.PhotoThree>
+            
         </S.HomeGrid>
     )
 }
